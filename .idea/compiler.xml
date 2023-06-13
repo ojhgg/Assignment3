@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka_service" />
+        <module name="auth_service" />
+        <module name="order_service" />
+        <module name="gateway_service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth_service (1)" target="17" />
+      <module name="auth_service (2)" target="17" />
+      <module name="deposit (1)" target="1.8" />
+      <module name="deposit (2)" target="1.8" />
+      <module name="eureka_service (1)" target="17" />
+      <module name="eureka_service (2)" target="17" />
+      <module name="gateway_service (1)" target="17" />
+      <module name="gateway_service (2)" target="17" />
+      <module name="sample_microservices" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth_service" options="-parameters" />
+      <module name="auth_service (1)" options="-parameters" />
+      <module name="auth_service (2)" options="-parameters" />
+      <module name="deposit (1)" options="-parameters" />
+      <module name="deposit (2)" options="-parameters" />
+      <module name="eureka_service" options="-parameters" />
+      <module name="eureka_service (1)" options="-parameters" />
+      <module name="eureka_service (2)" options="-parameters" />
+      <module name="gateway_service" options="-parameters" />
+      <module name="gateway_service (1)" options="-parameters" />
+      <module name="gateway_service (2)" options="-parameters" />
+      <module name="order_service" options="-parameters" />
+    </option>
+  </component>
+</project>
