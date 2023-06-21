@@ -4,66 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="942d1756-3466-4f88-9e2b-f0b5312cb35d" name="变更" comment="微服务">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/DepositApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/config/GlobalCorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/config/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/controller/ApplicationContextHelperUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/entity/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/entity/Courier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/entity/CourierBoxType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/entity/CourierServiceType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/entity/Customs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/entity/Dimension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/entity/Eei.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/entity/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/entity/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/entity/Operations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/entity/Parcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/entity/Passport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/entity/ShipperAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/entity/Weight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/mapper/BillingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/mapper/CourierMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/mapper/ParcelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/mapper/ShipmentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/mapper/ShipperAccountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/pojo/Billing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/pojo/Courier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/pojo/Courierboxtype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/pojo/Courierservicetype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/pojo/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/pojo/Parcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/pojo/Shipment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/pojo/Shipperaccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/vo/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/vo/param/CreateOrderParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/vo/param/LoginParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/vo/param/Param.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/vo/param/Param2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/vo/param/Parcels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/vo/param/RegisterParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/test/java/com/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth_service/src/main/java/org/ejavaexample/auth/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth_service/src/main/java/org/ejavaexample/auth/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth_service/src/main/java/org/ejavaexample/auth/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth_service/src/main/java/org/ejavaexample/auth/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth_service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/auth_service/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="942d1756-3466-4f88-9e2b-f0b5312cb35d" name="变更" comment="微服务" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,41 +42,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Notification.DoNotAsk-null": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/Users/Lenovo/Desktop/script1.sql",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "ff2508c79c6621a34a7fdc99c67b10ab",
-    "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
-    ]
-  }
-}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\大三下实训\sample_microservices\auth_service" />
@@ -181,6 +87,13 @@
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="order_service" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,6 +101,33 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="order_service" />
       <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -269,48 +209,48 @@
     </configuration>
     <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="auth_service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ejavaexample.auth.AuthServiceApplication" />
       <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
         <option name="credential" />
         <option name="region" />
         <option name="useCurrentConnection" value="false" />
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ejavaexample.auth.AuthServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="gateway_service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ejavaexample.gateway.GatewayServiceApplication" />
       <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
         <option name="credential" />
         <option name="region" />
         <option name="useCurrentConnection" value="false" />
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ejavaexample.gateway.GatewayServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="order_service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.DepositApplication" />
       <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
         <option name="credential" />
         <option name="region" />
         <option name="useCurrentConnection" value="false" />
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.DepositApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringcloudEruekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka_service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.SpringcloudEruekaApplication" />
       <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
         <option name="credential" />
         <option name="region" />
         <option name="useCurrentConnection" value="false" />
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.SpringcloudEruekaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -413,7 +353,7 @@
       <workItem from="1686601560251" duration="23320000" />
       <workItem from="1686680119630" duration="296000" />
       <workItem from="1686689096959" duration="6597000" />
-      <workItem from="1687326930327" duration="7512000" />
+      <workItem from="1687326930327" duration="7878000" />
     </task>
     <task id="LOCAL-00001" summary="首次">
       <created>1678885797778</created>
@@ -590,7 +530,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686694183600</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="微服务">
+      <created>1687334966143</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1687334966143</updated>
+    </task>
+    <task id="LOCAL-00027" summary="微服务">
+      <created>1687334998820</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1687334998820</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
