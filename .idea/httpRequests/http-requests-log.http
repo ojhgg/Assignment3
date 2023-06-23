@@ -1,0 +1,20 @@
+POST http://localhost:9999/user/createOrder
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-21T191733.503.json
+
+###
+
+POST http://localhost:8081/user/createOrder
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-21T191638.400.json
+
+###
+

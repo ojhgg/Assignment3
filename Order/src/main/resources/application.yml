@@ -3,10 +3,10 @@ spring:
   application:
     name: ORDER-SERVICE
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/shipping?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true;
+    url: jdbc:mysql://localhost:3306/shipping
     driverClassName: com.mysql.cj.jdbc.Driver
     username: root
-    password: jinyuan
+    password: 123456
 server:
   port: 8081
 eureka:

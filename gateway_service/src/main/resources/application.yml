@@ -6,31 +6,36 @@ spring:
   cloud:
     gateway:
        routes:
-        - id: ORDER-SERVICE
-          uri: http://localhost:9999
-          predicates:
-            - Path=/api/product/**
-          filters:
-            - AddResponseHeader=my-response-header,product.ejavaexample.org
-            - StripPrefix=1
+#        - id: ORDER-SERVICE
+#          uri: http://localhost:9999
+#          predicates:
+#            - Path=/api/product/**
+#          filters:
+#            - AddResponseHeader=my-response-header,product.ejavaexample.org
+#            - StripPrefix=1
 
             
+#        - id: ORDER-SERVICE
+#          uri: lb://USER-SERVICE
+#          predicates:
+#            - Path=/user/**
+#          filters:
+#            - AddResponseHeader=my-response-header,user.ejavaexample.org
+#            - PrefixPath=/api
+#            - MyPreFilter
+
         - id: USER-SERVICE
-          uri: lb://USER-SERVICE
+          uri: http://localhost:8081
           predicates:
             - Path=/user/**
-          filters:
-            - AddResponseHeader=my-response-header,user.ejavaexample.org
-            - PrefixPath=/api
-            - MyPreFilter 
 
         - id: AUTH-SERVICE
-          uri: lb://AUTH-SERVICE
+          uri: http://localhost:8001
           predicates:
-            - Path=/auth/**
-          filters:
-            - AddResponseHeader=my-response-header,product.ejavaexample.org
-            - PrefixPath=/api 
+            - Path=/api/auth/**
+#          filters:
+#            - AddResponseHeader=my-response-header,product.ejavaexample.org
+#            - PrefixPath=/api
 
             
             

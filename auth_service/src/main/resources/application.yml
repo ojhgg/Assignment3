@@ -3,10 +3,10 @@ spring:
     name: AUTH-SERVICE
 
   datasource:
-    driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/shipping?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/shipping
     username: root
-    password: jinyuan
+    password: 123456
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true

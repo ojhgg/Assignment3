@@ -22,7 +22,31 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="942d1756-3466-4f88-9e2b-f0b5312cb35d" name="变更" comment="微服务" />
+    <list default="true" id="942d1756-3466-4f88-9e2b-f0b5312cb35d" name="变更" comment="微服务">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fc433100-1b1e-4da0-8477-a368279ee926.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fc433100-1b1e-4da0-8477-a368279ee926.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fc433100-1b1e-4da0-8477-a368279ee926/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fc433100-1b1e-4da0-8477-a368279ee926/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth_service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/auth_service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway_service/src/main/java/org/ejavaexample/gateway/filters/MyGlobalFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway_service/src/main/java/org/ejavaexample/gateway/filters/MyGlobalFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway_service/src/main/java/org/ejavaexample/gateway/filters/MyPreFilterGatewayFilterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway_service/src/main/java/org/ejavaexample/gateway/filters/MyPreFilterGatewayFilterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway_service/src/main/java/org/ejavaexample/gateway/filters/MypostGatewayFilterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway_service/src/main/java/org/ejavaexample/gateway/filters/MypostGatewayFilterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway_service/src/main/java/org/ejavaexample/gateway/jwt/AuthFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway_service/src/main/java/org/ejavaexample/gateway/jwt/AuthFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway_service/src/main/java/org/ejavaexample/gateway/jwt/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway_service/src/main/java/org/ejavaexample/gateway/jwt/AuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway_service/src/main/java/org/ejavaexample/gateway/jwt/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway_service/src/main/java/org/ejavaexample/gateway/jwt/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway_service/src/main/java/org/ejavaexample/gateway/jwt/RouterValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway_service/src/main/java/org/ejavaexample/gateway/jwt/RouterValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway_service/src/main/java/org/ejavaexample/gateway/jwt/config/FeignConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway_service/src/main/java/org/ejavaexample/gateway/jwt/config/FeignConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway_service/src/main/java/org/ejavaexample/gateway/jwt/payload/request/ValidJwtRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway_service/src/main/java/org/ejavaexample/gateway/jwt/payload/request/ValidJwtRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway_service/src/main/java/org/ejavaexample/gateway/jwt/payload/response/MessageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway_service/src/main/java/org/ejavaexample/gateway/jwt/payload/response/MessageResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway_service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway_service/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,13 +81,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;36224115466f678b90fdcbd116d0f960&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\大三下实训\sample_microservices\auth_service" />
@@ -76,6 +110,24 @@
       <recent name="D:\大三下实训\deposit\src\main" />
       <recent name="D:\大三下实训\deposit\src\main\java" />
     </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 6 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 6 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="auth_service" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="Found 6 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="order_service" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="RunManager" selected="Spring Boot.AuthServiceApplication">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
@@ -97,6 +149,9 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
     <configuration name="测试1" type="JUnit" factoryName="JUnit">
       <module name="order_service" />
       <option name="PACKAGE_NAME" value="com.example.deposit" />
@@ -109,13 +164,6 @@
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="order_service" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,33 +171,6 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="order_service" />
       <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -231,48 +252,48 @@
     </configuration>
     <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="auth_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ejavaexample.auth.AuthServiceApplication" />
       <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
         <option name="credential" />
         <option name="region" />
         <option name="useCurrentConnection" value="false" />
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ejavaexample.auth.AuthServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="gateway_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ejavaexample.gateway.GatewayServiceApplication" />
       <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
         <option name="credential" />
         <option name="region" />
         <option name="useCurrentConnection" value="false" />
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ejavaexample.gateway.GatewayServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="order_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.DepositApplication" />
       <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
         <option name="credential" />
         <option name="region" />
         <option name="useCurrentConnection" value="false" />
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.DepositApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringcloudEruekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.SpringcloudEruekaApplication" />
       <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
         <option name="credential" />
         <option name="region" />
         <option name="useCurrentConnection" value="false" />
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.SpringcloudEruekaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -310,6 +331,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="HTTP 请求.generated-requests | #4" />
       <item itemvalue="JUnit.测试1" />
       <item itemvalue="Maven.deposit [install]" />
       <item itemvalue="Maven.deposit [spring-boot:run]" />
@@ -323,12 +345,13 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP 请求.generated-requests | #4" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="应用程序级" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -380,6 +403,23 @@
       <workItem from="1686689096959" duration="6597000" />
       <workItem from="1687326930327" duration="7878000" />
       <workItem from="1687335427591" duration="540000" />
+      <workItem from="1687340883635" duration="2449000" />
+      <workItem from="1687345920117" duration="1018000" />
+      <workItem from="1687348697899" duration="1064000" />
+      <workItem from="1687349844355" duration="255000" />
+      <workItem from="1687350120085" duration="85000" />
+      <workItem from="1687350226604" duration="548000" />
+      <workItem from="1687351061426" duration="22000" />
+      <workItem from="1687351107163" duration="1523000" />
+      <workItem from="1687355547965" duration="219000" />
+      <workItem from="1687355789472" duration="107000" />
+      <workItem from="1687356339484" duration="2415000" />
+      <workItem from="1687431707488" duration="1280000" />
+      <workItem from="1687447197541" duration="1650000" />
+      <workItem from="1687450138039" duration="1227000" />
+      <workItem from="1687453359066" duration="1945000" />
+      <workItem from="1687455469042" duration="779000" />
+      <workItem from="1687484400303" duration="917000" />
     </task>
     <task id="LOCAL-00001" summary="首次">
       <created>1678885797778</created>
@@ -581,7 +621,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ID_ORDER">
@@ -595,6 +635,21 @@
     </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -616,22 +671,6 @@
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="User">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="*" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
